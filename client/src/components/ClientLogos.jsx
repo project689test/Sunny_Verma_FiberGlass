@@ -2,7 +2,6 @@ import { motion } from 'framer-motion';
 import { fadeInUp, staggerContainer } from '../hooks/useScrollAnimation';
 
 const clients = [
-  {},
   { name: "Neokraft Global", sub: "CLIENT", Image:"LOGO.png" },
   { name: "Worlds of Wonder", sub: "AMUSEMENT PARK" },
   { name: "The Great India Place", sub: "MALL" },
@@ -47,6 +46,9 @@ const ClientLogos = () => {
               </h4>
               <p className="text-[10px] text-dim tracking-widest font-semibold mt-1 uppercase group-hover:text-[rgba(0,195,255,0.5)] transition-colors">
                 {client.sub}
+              </p>
+              <p className="text-[10px] text-dim tracking-widest font-semibold mt-1 uppercase group-hover:text-[rgba(0,195,255,0.5)] transition-colors">
+                {client.Image}
               </p>
             </motion.div>
           ))}
