@@ -4,7 +4,7 @@ import logoIcon from '../assets/images/logo-icon.png';
 
 const clients = [
   {  Image: "/LOGO.png" },
-  {  Image: "/Hero_Section.jpeg" },
+  {  Image: "/appu-ghar.png" },
   { name: "The Great India Place", sub: "MALL" },
   { name: "Hindustan Amusement Machines", sub: "MACHINES" },
   { name: "Swastik Art & Creation", sub: "ART STUDIO" },
