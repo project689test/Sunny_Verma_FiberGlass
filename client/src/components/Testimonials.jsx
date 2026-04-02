@@ -53,7 +53,7 @@ const Testimonials = () => {
         >
           <span className="sec-label">CLIENT REVIEWS</span>
           <h2 className="text-4xl md:text-5xl font-heading font-bold mt-2 mb-2">
-          <span className="text-dark">TESTIMONIALS</span>
+          <span className="text-fire">TESTIMONIALS</span>
           </h2>
         </motion.div>
 
