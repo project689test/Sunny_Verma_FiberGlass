@@ -4,7 +4,7 @@ import logoIcon from '../assets/images/logo-icon.png';
 
 const clients = [
   { Image: logoIcon },
-  { name: "Worlds of Wonder", sub: "AMUSEMENT PARK" },
+  { Image: Hero_Section },
   { name: "The Great India Place", sub: "MALL" },
   { name: "Hindustan Amusement Machines", sub: "MACHINES" },
   { name: "Swastik Art & Creation", sub: "ART STUDIO" },
