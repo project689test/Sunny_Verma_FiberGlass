@@ -51,27 +51,11 @@ const Testimonials = () => {
           variants={fadeInUp}
           className="text-center mb-16 flex flex-col items-center"
         >
-          <span className="sec-label">OUR PRODUCTS</span>
-          <h2 className="text-4xl md:text-5xl font-heading font-bold text-[#F0F6FF] mt-2 mb-2">
-            WE <span className="text-fire">MANUFACTURE</span>
-          </h2>
-          <p className="text-muted text-sm font-body mt-2">
-            High-quality FRP solutions designed to last for generations
-          </p>
-        </motion.div>
-
-        {/* <motion.div 
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true, amount: 0.2 }}
-          variants={fadeInUp}
-          className="text-center mb-16 flex flex-col items-center"
-        >
           <span className="sec-label">CLIENT REVIEWS</span>
           <h2 className="text-4xl md:text-5xl font-heading font-bold text-[#F0F6FF] mt-2 mb-2">
-            <span className="text-sky">TESTIMONIALS</span>
+          <span className="text-sky">TESTIMONIALS</span>
           </h2>
-        </motion.div> */}
+        </motion.div>
 
         <motion.div 
           variants={staggerContainer}
