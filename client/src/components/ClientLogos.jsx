@@ -3,7 +3,7 @@ import { fadeInUp, staggerContainer } from '../hooks/useScrollAnimation';
 import logoIcon from '../assets/images/logo-icon.png';
 
 const clients = [
-  { Image: logoIcon },
+  { Image: Hero_Section},
   { Image: Hero_Section },
   { name: "The Great India Place", sub: "MALL" },
   { name: "Hindustan Amusement Machines", sub: "MACHINES" },
