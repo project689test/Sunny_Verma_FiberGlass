@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 import { fadeInUp, staggerContainer } from '../hooks/useScrollAnimation';
 
 const clients = [
-  { name: "Neokraft Global", sub: "CLIENT", Image:"./LOGO.png" },
+  { name: "Neokraft Global", sub: "CLIENT", Image:"../LOGO.png" },
   { name: "Worlds of Wonder", sub: "AMUSEMENT PARK" },
   { name: "The Great India Place", sub: "MALL" },
   { name: "Hindustan Amusement Machines", sub: "MACHINES" },
