@@ -52,8 +52,8 @@ const Testimonials = () => {
           className="text-center mb-16 flex flex-col items-center"
         >
           <span className="sec-label">CLIENT REVIEWS</span>
-          <h2 className="text-4xl md:text-5xl font-heading font-bold text-[#fff] mt-2 mb-2">
-          <span className="text-sky">TESTIMONIALS</span>
+          <h2 className="text-4xl md:text-5xl font-heading font-bold mt-2 mb-2">
+          <span className="text-dark">TESTIMONIALS</span>
           </h2>
         </motion.div>
 
