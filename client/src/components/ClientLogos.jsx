@@ -3,8 +3,8 @@ import { fadeInUp, staggerContainer } from '../hooks/useScrollAnimation';
 import logoIcon from '../assets/images/logo-icon.png';
 
 const clients = [
-  { Image: Hero_Section},
-  { Image: Hero_Section },
+  { name: "Neokraft Global", sub: "CLIENT", Image: "/LOGO.png" },
+  { name: "Worlds of Wonder", sub: "AMUSEMENT PARK", Image: "/logo-icon.png" },
   { name: "The Great India Place", sub: "MALL" },
   { name: "Hindustan Amusement Machines", sub: "MACHINES" },
   { name: "Swastik Art & Creation", sub: "ART STUDIO" },
