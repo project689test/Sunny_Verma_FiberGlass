@@ -1,8 +1,9 @@
 import { motion } from 'framer-motion';
 import { fadeInUp, staggerContainer } from '../hooks/useScrollAnimation';
+import logoIcon from '../assets/images/logo-icon.png';
 
 const clients = [
-  { name: "Neokraft Global", sub: "CLIENT", Image:"../LOGO.png" },
+  { name: "Neokraft Global", sub: "CLIENT", Image: logoIcon },
   { name: "Worlds of Wonder", sub: "AMUSEMENT PARK" },
   { name: "The Great India Place", sub: "MALL" },
   { name: "Hindustan Amusement Machines", sub: "MACHINES" },
@@ -47,9 +48,17 @@ const ClientLogos = () => {
               <p className="text-[10px] text-dim tracking-widest font-semibold mt-1 uppercase group-hover:text-[rgba(0,195,255,0.5)] transition-colors">
                 {client.sub}
               </p>
-              <p className="text-[10px] text-dim tracking-widest font-semibold mt-1 uppercase group-hover:text-[rgba(0,195,255,0.5)] transition-colors">
-                {client.Image}
-              </p>
+              {client.Image ? (
+                <img
+                  src={client.Image}
+                  alt={`${client.name} logo`}
+                  className="h-10 w-auto mt-2 object-contain"
+                />
+              ) : (
+                <p className="text-[10px] text-dim tracking-widest font-semibold mt-1 uppercase group-hover:text-[rgba(0,195,255,0.5)] transition-colors">
+                  No logo available
+                </p>
+              )}
             </motion.div>
           ))}
         </motion.div>
