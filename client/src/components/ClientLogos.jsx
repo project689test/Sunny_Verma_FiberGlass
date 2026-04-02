@@ -21,10 +21,10 @@ const ClientLogos = () => {
           viewport={{ once: true, amount: 0.5 }}
           variants={fadeInUp}
           className="text-center mb-10 flex flex-col items-center"
-        >
+          >
           <span className="sec-label">TRUSTED BY INDUSTRY LEADERS</span>
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-[#F0F6FF] mt-2">
-            OUR <span className="text-sky">CLIENTS</span>
+            OUR <span className="text-fire">CLIENTS</span>
           </h2>
         </motion.div>
 
@@ -34,7 +34,7 @@ const ClientLogos = () => {
           whileInView="visible"
           viewport={{ once: true, amount: 0.1 }}
           className="flex flex-wrap justify-center items-center gap-4 md:gap-6"
-        >
+          >
           {clients.map((client, index) => (
             <motion.div 
               key={index}
