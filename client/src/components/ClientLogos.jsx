@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 import { fadeInUp, staggerContainer } from '../hooks/useScrollAnimation';
 
 const clients = [
-  { name: "Neokraft Global", sub: "CLIENT", Image:"LOGO.png" },
+  { name: "Neokraft Global", sub: "CLIENT", Image:"https://th.bing.com/th/id/R.81eff46eb7506990f4eea84f5fc5da72?rik=CfkCSALCJV97nQ&riu=http%3a%2f%2fwww.forestwander.com%2fwp-content%2foriginal%2f2011_06%2fbeautiful-flower.jpg&ehk=2OKuJYct%2fBGxUgZNwZdUPUTkaA1fLYlgsG3M4mEAz6I%3d&risl=&pid=ImgRaw&r=0" },
   { name: "Worlds of Wonder", sub: "AMUSEMENT PARK" },
   { name: "The Great India Place", sub: "MALL" },
   { name: "Hindustan Amusement Machines", sub: "MACHINES" },
