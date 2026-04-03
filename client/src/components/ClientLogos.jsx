@@ -14,7 +14,7 @@ const clients = [
 
 const ClientLogos = () => {
   return (
-    <section className="py-16 bg-bg-section border-y border-[rgb(231, 238, 241)]">
+    <section className="py-16 bg-bg-section border-y border-[rgba(222, 235, 239, 0.05)]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div 
           initial="hidden"
@@ -45,7 +45,7 @@ const ClientLogos = () => {
               <h4 className="font-heading font-bold text-sm tracking-wide text-muted group-hover:text-blue-light transition-colors whitespace-nowrap">
                 {client.name}
               </h4>
-              <p className="text-[10px] text-dim tracking-widest font-semibold mt-1 uppercase group-hover:text-[rgba(224, 231, 233, 0.99)] transition-colors">
+              <p className="text-[10px] text-dim tracking-widest font-semibold mt-1 uppercase group-hover:text-[rgba(0,195,255,0.5)] transition-colors">
                 {client.sub}
               </p>
               {client.Image ? (
