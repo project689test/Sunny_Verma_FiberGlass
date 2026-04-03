@@ -3,7 +3,7 @@ import logoFull from '../assets/images/logo-icon.png';
 
 const Footer = () => {
   return (
-    <footer className="bg-[#040910] text-[#F0F6FF] pt-16 pb-8 border-t border-[rgba(0,195,255,0.15)]">
+    <footer className="bg-[#040910] text-gray-900 pt-16 pb-8 border-t border-[rgba(0,195,255,0.15)]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
           
@@ -61,7 +61,7 @@ const Footer = () => {
               className="border border-[rgba(0,195,255,0.15)] rounded-xl p-5 mt-6 group hover:border-[rgba(0,195,255,0.38)] transition-colors"
               style={{background:'linear-gradient(135deg,rgba(0,119,255,0.1),rgba(255,140,0,0.08))'}}
             >
-              <h5 className="font-heading font-bold text-white mb-2">Need a custom mold?</h5>
+              <h5 className="font-heading font-bold text-gray-900 mb-2">Need a custom mold?</h5>
               <p className="text-xs text-dim mb-4 font-body">Get a detailed estimate for your specific FRP requirements.</p>
               <Link to="/contact" className="btn-fire px-5 py-2 text-xs w-full text-center">Get Free Quote</Link>
             </div>

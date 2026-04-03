@@ -12,7 +12,7 @@ const products = [
 
 const WeManufacture = () => {
   return (
-    <section className="py-20 bg-bg-dark">
+    <section className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div 
           initial="hidden"
@@ -22,7 +22,7 @@ const WeManufacture = () => {
           className="text-center mb-16 flex flex-col items-center"
         >
           <span className="sec-label">OUR PRODUCTS</span>
-          <h2 className="text-4xl md:text-5xl font-heading font-bold text-[#F0F6FF] mt-2 mb-2">
+          <h2 className="text-4xl md:text-5xl font-heading font-bold text-gray-900 mt-2 mb-2">
             WE <span className="text-fire">MANUFACTURE</span>
           </h2>
           <p className="text-muted text-sm font-body mt-2">
@@ -48,10 +48,10 @@ const WeManufacture = () => {
                 alt={product.name} 
                 className="w-full h-48 object-cover brightness-[0.68] group-hover:brightness-90 group-hover:scale-105 transition-all duration-500"
               />
-              <div className="absolute inset-x-0 bottom-0 bg-[rgba(6,12,26,0.9)] border-t border-[rgba(0,195,255,0.15)] p-4 backdrop-blur-md">
+              <div className="absolute inset-x-0 bottom-0 bg-[rgba(255,255,255,0.9)] border-t border-[rgba(0,195,255,0.15)] p-4 backdrop-blur-md">
                  <div className="flex items-center">
                    <span className="w-2 h-2 rounded-full flex-shrink-0 mr-3" style={{background:'linear-gradient(135deg,#FFD000,#FF2200)'}} />
-                   <h3 className="text-[#F0F6FF] font-heading font-bold text-lg tracking-wide group-hover:text-fire-orange transition-colors">
+                   <h3 className="text-gray-900 font-heading font-bold text-lg tracking-wide group-hover:text-fire-orange transition-colors">
                      {product.name}
                    </h3>
                  </div>

@@ -10,12 +10,11 @@
   html { scroll-behavior: smooth; }
   
   body {
-    @apply bg-bg-dark font-body overflow-x-hidden;
-    color: #F0F6FF;
+    @apply bg-white font-body overflow-x-hidden text-gray-900;
   }
 
   ::-webkit-scrollbar { width: 5px; }
-  ::-webkit-scrollbar-track { @apply bg-bg-dark; }
+  ::-webkit-scrollbar-track { @apply bg-white; }
   ::-webkit-scrollbar-thumb { @apply bg-blue-mid rounded; }
 }
 
@@ -46,9 +45,10 @@
 
   /* Glass Card */
   .glass-card {
-    background: rgba(255,255,255,0.04);
-    border: 1px solid rgba(0,195,255,0.15);
+    background: #ffffff;
+    border: 1px solid rgba(0,0,0,0.1);
     @apply backdrop-blur-sm rounded-xl transition-all duration-300;
+    box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);
   }
   .glass-card:hover {
     border-color: rgba(0,195,255,0.38);
@@ -89,8 +89,8 @@
   }
   
   /* Text colors */
-  .text-muted  { color: rgba(200,220,255,0.65); }
-  .text-dim    { color: rgba(200,220,255,0.38); }
+  .text-muted  { color: rgba(17, 24, 39, 0.7); }
+  .text-dim    { color: rgba(17, 24, 39, 0.5); }
   
   /* Progress bar */
   .progress-bar {

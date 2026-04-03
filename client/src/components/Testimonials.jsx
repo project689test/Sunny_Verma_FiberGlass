@@ -42,7 +42,7 @@ const StarRating = ({ rating }) => {
 
 const Testimonials = () => {
   return (
-    <section className="py-20 bg-bg-dark">
+    <section className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div 
           initial="hidden"
@@ -81,11 +81,11 @@ const Testimonials = () => {
                   "{test.quote}"
                 </p>
                 <div className="flex items-center mt-auto border-t border-[rgba(0,195,255,0.15)] pt-6">
-                  <div className="w-12 h-12 bg-gradient-to-br from-blue-mid to-blue-dark rounded-full flex items-center justify-center text-white font-heading font-bold text-xl mr-4 shadow-inner border border-[rgba(0,195,255,0.3)]">
+                  <div className="w-12 h-12 bg-gradient-to-br from-blue-mid to-blue-dark rounded-full flex items-center justify-center text-gray-900 font-heading font-bold text-xl mr-4 shadow-inner border border-[rgba(0,195,255,0.3)]">
                     {test.name.charAt(0)}
                   </div>
                   <div>
-                    <h4 className="font-heading font-bold text-[#F0F6FF]">{test.name}</h4>
+                    <h4 className="font-heading font-bold text-gray-900">{test.name}</h4>
                     <p className="text-xs text-dim font-medium uppercase tracking-wider">{test.company}</p>
                   </div>
                 </div>

@@ -9,7 +9,7 @@ import ContactSection from '../components/ContactSection';
 
 const HomePage = () => {
   return (
-    <div className="bg-bg-dark min-h-screen">
+    <div className="bg-white min-h-screen">
       <HeroSection />
       <WhoWeAre />
       <ServicesSection />

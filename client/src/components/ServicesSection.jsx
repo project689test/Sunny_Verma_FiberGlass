@@ -27,7 +27,7 @@ const services = [
 
 const ServicesSection = () => {
   return (
-    <section className="py-20 bg-bg-dark">
+    <section className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div 
           initial="hidden"
@@ -37,7 +37,7 @@ const ServicesSection = () => {
           className="text-center mb-16 flex flex-col items-center"
         >
           <span className="sec-label">WHAT WE DO</span>
-          <h2 className="text-4xl md:text-5xl font-heading font-bold text-[#F0F6FF] mt-2 mb-2">
+          <h2 className="text-4xl md:text-5xl font-heading font-bold text-gray-900 mt-2 mb-2">
             OUR <span className="text-fire">FRP SERVICES</span>
           </h2>
         </motion.div>
@@ -61,10 +61,10 @@ const ServicesSection = () => {
                   alt={service.title} 
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 brightness-75 group-hover:brightness-100"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-[rgba(6,12,26,0.93)] via-transparent to-transparent"></div>
+                <div className="absolute inset-0 bg-gradient-to-t from-[rgba(255,255,255,0.93)] via-transparent to-transparent"></div>
               </div>
               <div className="p-6 flex-grow flex flex-col relative z-10 -mt-12">
-                <h3 className="text-xl font-heading font-bold text-white mb-3 line-clamp-2 drop-shadow-md">
+                <h3 className="text-xl font-heading font-bold text-gray-900 mb-3 line-clamp-2 drop-shadow-md">
                   {service.title}
                 </h3>
                 <p className="text-muted mb-6 text-sm line-clamp-3 font-body flex-grow">

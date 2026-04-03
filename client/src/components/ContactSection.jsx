@@ -5,7 +5,7 @@ const ContactSection = () => {
       className="border-t border-b border-[rgba(0,195,255,0.15)] py-16"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center flex flex-col items-center">
-        <h2 className="text-3xl md:text-5xl font-heading font-bold text-[#F0F6FF] mb-8">
+        <h2 className="text-3xl md:text-5xl font-heading font-bold text-gray-900 mb-8">
           Ready to Start Your <span className="text-fire">FRP Project?</span>
         </h2>
         

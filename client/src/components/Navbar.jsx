@@ -37,8 +37,8 @@ const Navbar = () => {
       transition={{ duration: 0.5, ease: "easeOut" }}
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         scrolled 
-          ? 'bg-[rgba(6,12,26,0.98)] shadow-lg' 
-          : 'bg-[rgba(6,12,26,0.85)] backdrop-blur-xl border-b border-[rgba(0,195,255,0.15)]'
+          ? 'bg-[rgba(255,255,255,0.98)] shadow-lg' 
+          : 'bg-[rgba(255,255,255,0.85)] backdrop-blur-xl border-b border-[rgba(0,195,255,0.15)]'
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -90,7 +90,7 @@ const Navbar = () => {
           <div className="md:hidden flex items-center">
             <button
               onClick={toggleMenu}
-              className="text-muted hover:text-[#F0F6FF] focus:outline-none"
+              className="text-muted hover:text-gray-900 focus:outline-none"
             >
               <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 {isOpen ? (
@@ -111,7 +111,7 @@ const Navbar = () => {
             initial={{ opacity: 0, height: 0 }}
             animate={{ opacity: 1, height: 'auto' }}
             exit={{ opacity: 0, height: 0 }}
-            className="md:hidden bg-[rgba(6,12,26,0.97)] border-b border-[rgba(0,195,255,0.15)] backdrop-blur-xl"
+            className="md:hidden bg-[rgba(255,255,255,0.97)] border-b border-[rgba(0,195,255,0.15)] backdrop-blur-xl"
           >
             <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
               {links.map((link) => {

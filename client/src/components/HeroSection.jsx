@@ -8,9 +8,9 @@ const HeroSection = () => {
   ];
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center -mt-20 pt-20 overflow-hidden bg-bg-dark">
+    <section className="relative min-h-screen flex items-center justify-center -mt-20 pt-20 overflow-hidden bg-white">
       <div className="absolute inset-0 bg-[url('/Hero_Section.jpeg')] bg-cover bg-center" />
-      <div className="absolute inset-0 bg-gradient-to-r from-[rgba(6,12,26,0.94)] via-[rgba(6,12,26,0.8)] to-[rgba(6,12,26,0.55)]" />
+      <div className="absolute inset-0 bg-gradient-to-r from-[rgba(255,255,255,0.94)] via-[rgba(255,255,255,0.8)] to-[rgba(255,255,255,0.55)]" />
       <div className="absolute inset-0 opacity-[0.04]"
         style={{backgroundImage: 'linear-gradient(#00C3FF 1px,transparent 1px), linear-gradient(90deg,#00C3FF 1px,transparent 1px)', backgroundSize:'56px 56px'}} 
       />
@@ -19,7 +19,7 @@ const HeroSection = () => {
       <div className="orb w-[180px] h-[180px] bg-fire-orange bottom-[18%] right-[28%] animate-float [animation-delay:-4s]" />
       <div className="orb w-[140px] h-[140px] bg-fire-yellow top-[65%] right-[4%] animate-float [animation-delay:-7s]" />
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-white z-10 w-full text-left pt-12 md:pt-0">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-gray-900 z-10 w-full text-left pt-12 md:pt-0">
         <motion.div 
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
@@ -36,7 +36,7 @@ const HeroSection = () => {
           transition={{ duration: 0.6, delay: 0.2, ease: "easeOut" }}
           className="font-heading font-bold text-5xl md:text-6xl leading-tight mb-6"
         >
-          <span className="block text-[#F0F6FF]">Strong, Reliable &amp;</span>
+          <span className="block text-gray-900">Strong, Reliable &amp;</span>
           <span className="block text-fire">Trusted FRP Solutions</span>
         </motion.h1>
         

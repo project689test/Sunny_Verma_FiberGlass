@@ -10,7 +10,7 @@ const WhoWeAre = () => {
   ];
 
   return (
-    <section className="py-20 bg-bg-section overflow-hidden">
+    <section className="py-20 bg-gray-50 overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           
@@ -24,7 +24,7 @@ const WhoWeAre = () => {
             <motion.div variants={fadeInUp} className="mb-4">
               <span className="sec-label">WHO WE ARE</span>
               <h2 className="text-4xl md:text-5xl font-heading font-bold mt-2 mb-6">
-                <span className="text-[#F0F6FF]"><span className="text-sky">WHO</span> WE ARE</span>
+                <span className="text-gray-900"><span className="text-sky">WHO</span> WE ARE</span>
               </h2>
             </motion.div>
             
@@ -34,8 +34,8 @@ const WhoWeAre = () => {
 
             <motion.ul variants={staggerContainer} className="space-y-4 mb-8">
               {checklist.map((item, index) => (
-                <motion.li key={index} variants={fadeInUp} className="flex items-center text-[#F0F6FF] font-medium font-body">
-                  <div className="w-6 h-6 rounded-md flex-shrink-0 flex items-center justify-center text-white text-xs font-bold bg-gradient-to-br from-blue-mid to-blue-light mr-4">
+                <motion.li key={index} variants={fadeInUp} className="flex items-center text-gray-900 font-medium font-body">
+                  <div className="w-6 h-6 rounded-md flex-shrink-0 flex items-center justify-center text-gray-900 text-xs font-bold bg-gradient-to-br from-blue-mid to-blue-light mr-4">
                     ✓
                   </div>
                   {item}
@@ -44,7 +44,7 @@ const WhoWeAre = () => {
             </motion.ul>
 
             <motion.div variants={fadeInUp} className="border-l-4 border-fire-orange pl-4 py-3 pr-4 rounded-r-lg text-muted text-sm leading-relaxed" style={{ background:'linear-gradient(135deg,rgba(0,119,255,0.1),rgba(255,140,0,0.08))' }}>
-              <h3 className="font-heading font-bold text-xl text-[#F0F6FF] mb-2">Our Mission</h3>
+              <h3 className="font-heading font-bold text-xl text-gray-900 mb-2">Our Mission</h3>
               <p className="font-body">To continuously deliver robust, innovative, and cost-effective fiber solutions that exceed client expectations, ensuring durability and safety in every mold.</p>
             </motion.div>
           </motion.div>
@@ -63,7 +63,7 @@ const WhoWeAre = () => {
                 alt="Water Park Slide Construction" 
                 className="w-full h-full object-cover rounded-lg hover:scale-105 transition-transform duration-700 brightness-[0.8]"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-[rgba(6,12,26,0.9)] to-transparent flex items-end p-8 pointer-events-none rounded-lg">
+              <div className="absolute inset-0 bg-gradient-to-t from-[rgba(255,255,255,0.9)] to-transparent flex items-end p-8 pointer-events-none rounded-lg">
                  <div className="bg-[rgba(255,140,0,0.15)] backdrop-blur-md border border-[rgba(255,140,0,0.3)] text-fire-orange font-bold py-2 px-6 rounded shadow-lg text-sm tracking-wider">
                     20+ Years Experience
                  </div>

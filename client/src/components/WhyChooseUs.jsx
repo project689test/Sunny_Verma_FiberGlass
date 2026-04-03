@@ -12,7 +12,7 @@ const features = [
 
 const WhyChooseUs = () => {
   return (
-    <section className="py-20 bg-bg-section">
+    <section className="py-20 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
@@ -26,7 +26,7 @@ const WhyChooseUs = () => {
           >
             <motion.div variants={fadeInUp} className="mb-10">
               <span className="sec-label">THE SV ADVANTAGE</span>
-              <h2 className="text-4xl md:text-5xl font-heading font-bold text-[#F0F6FF] mt-2">
+              <h2 className="text-4xl md:text-5xl font-heading font-bold text-gray-900 mt-2">
                 WHY <span className="text-fire">CHOOSE US?</span>
               </h2>
             </motion.div>
@@ -38,7 +38,7 @@ const WhyChooseUs = () => {
                     <div className="bg-[rgba(0,195,255,0.08)] rounded-md p-2 mr-3 border border-[rgba(0,195,255,0.15)] text-blue-light group-hover:text-fire-orange group-hover:border-[rgba(255,140,0,0.3)] transition-colors">
                       <svg className="w-5 h-5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path></svg>
                     </div>
-                    <h4 className="font-heading font-bold text-[#F0F6FF] text-lg">{feature.title}</h4>
+                    <h4 className="font-heading font-bold text-gray-900 text-lg">{feature.title}</h4>
                   </div>
                   <p className="text-muted text-sm pl-11 font-body">{feature.description}</p>
                 </motion.div>
@@ -61,7 +61,7 @@ const WhyChooseUs = () => {
               {/* Background pattern */}
               <div className="absolute inset-0 opacity-5" style={{ backgroundImage: 'radial-gradient(circle at 2px 2px, #00C3FF 1px, transparent 0)', backgroundSize: '24px 24px' }}></div>
               
-              <div className="relative z-10 w-28 h-28 rounded-full flex items-center justify-center mb-6 border border-[rgba(255,140,0,0.3)] shadow-[0_4px_20px_rgba(255,140,0,0.2)] mx-auto overflow-hidden bg-[rgba(6,12,26,0.6)]">
+              <div className="relative z-10 w-28 h-28 rounded-full flex items-center justify-center mb-6 border border-[rgba(255,140,0,0.3)] shadow-[0_4px_20px_rgba(255,140,0,0.2)] mx-auto overflow-hidden bg-[rgba(255,255,255,0.6)]">
                 <div className="absolute inset-0 bg-gradient-to-br from-[rgba(255,208,0,0.2)] to-[rgba(255,34,0,0.2)]" />
                 <div className="text-center relative z-10">
                   <span className="block text-4xl font-heading font-black text-logo leading-none">20+</span>
@@ -79,9 +79,9 @@ const WhyChooseUs = () => {
 
             <div 
               style={{ background:'linear-gradient(90deg,#0033CC,#0077FF,#FF8C00)' }}
-              className="text-white text-center font-heading font-semibold rounded-xl p-4 w-full mt-4 shadow-[0_8px_20px_rgba(0,119,255,0.25)] flex items-center justify-center gap-3"
+              className="text-gray-900 text-center font-heading font-semibold rounded-xl p-4 w-full mt-4 shadow-[0_8px_20px_rgba(0,119,255,0.25)] flex items-center justify-center gap-3"
             >
-              <svg className="w-5 h-5 text-white/80" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+              <svg className="w-5 h-5 text-gray-900/80" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
               <span className="tracking-wide">Strong. Reliable. Trusted.</span>
             </div>
           </motion.div>

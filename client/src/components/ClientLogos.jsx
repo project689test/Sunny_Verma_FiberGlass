@@ -14,7 +14,7 @@ const clients = [
 
 const ClientLogos = () => {
   return (
-    <section className="py-16 bg-bg-section border-y border-[rgba(222, 235, 239, 0.05)]">
+    <section className="py-16 bg-gray-50 border-y border-[rgba(222, 235, 239, 0.05)]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div 
           initial="hidden"
@@ -24,7 +24,7 @@ const ClientLogos = () => {
           className="text-center mb-10 flex flex-col items-center"
           >
           <span className="sec-label">TRUSTED BY INDUSTRY LEADERS</span>
-          <h2 className="text-3xl md:text-4xl font-heading font-bold text-[#F0F6FF] mt-2">
+          <h2 className="text-3xl md:text-4xl font-heading font-bold text-gray-900 mt-2">
             OUR <span className="text-fire">CLIENTS</span>
           </h2>
         </motion.div>
