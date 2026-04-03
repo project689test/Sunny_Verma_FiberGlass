@@ -45,7 +45,7 @@ const ClientLogos = () => {
               <h4 className="font-heading font-bold text-sm tracking-wide text-muted group-hover:text-blue-light transition-colors whitespace-nowrap">
                 {client.name}
               </h4>
-              <p className="text-[10px] text-dim tracking-widest font-semibold mt-1 uppercase group-hover:text-[rgba(0,195,255,0.5)] transition-colors">
+              <p className="text-[10px] text-dim tracking-widest font-semibold mt-1 uppercase group-hover:text-[rgba(224, 231, 233, 0.99)] transition-colors">
                 {client.sub}
               </p>
               {client.Image ? (
