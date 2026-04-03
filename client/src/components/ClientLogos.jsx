@@ -14,7 +14,7 @@ const clients = [
 
 const ClientLogos = () => {
   return (
-    <section className="py-16 bg-bg-section border-y border-[rgba(0,195,255,0.05)]">
+    <section className="py-16 bg-bg-section border-y border-[rgb(231, 238, 241)]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div 
           initial="hidden"
