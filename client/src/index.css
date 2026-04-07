@@ -13,6 +13,11 @@
     @apply bg-bg-dark font-body overflow-x-hidden;
     color: #F0F6FF;
   }
+  
+  body.light-theme {
+    background-color: #f3f4f6;
+    color: #111827;
+  }
 
   ::-webkit-scrollbar { width: 5px; }
   ::-webkit-scrollbar-track { @apply bg-bg-dark; }
@@ -55,6 +60,16 @@
     transform: translateY(-6px);
     box-shadow: 0 16px 40px rgba(0,100,255,0.15);
   }
+  
+  .light-theme .glass-card {
+    background: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  }
+  .light-theme .glass-card:hover {
+    border-color: rgba(0, 195, 255, 0.4);
+    box-shadow: 0 16px 40px rgba(0, 100, 255, 0.1);
+  }
 
   /* Section Label (small caps above heading) */
   .sec-label {
@@ -91,6 +106,9 @@
   /* Text colors */
   .text-muted  { color: rgba(200,220,255,0.65); }
   .text-dim    { color: rgba(200,220,255,0.38); }
+  
+  .light-theme .text-muted,
+  .light-theme .text-dim { color: rgba(0,0,0,0.65); }
   
   /* Progress bar */
   .progress-bar {
